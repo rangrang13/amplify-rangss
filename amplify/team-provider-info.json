@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-rangss-dev-40756-authRole",
+      "UnauthRoleArn": "arn:aws:iam::905418036716:role/amplify-rangss-dev-40756-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::905418036716:role/amplify-rangss-dev-40756-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-rangss-dev-40756-deployment",
+      "UnauthRoleName": "amplify-rangss-dev-40756-unauthRole",
+      "StackName": "amplify-rangss-dev-40756",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:905418036716:stack/amplify-rangss-dev-40756/37452410-2b79-11ef-838e-0293fd58bf09",
+      "AmplifyAppId": "d31clox9m6ead8"
+    },
+    "categories": {
+      "api": {
+        "rangss": {}
+      }
+    }
+  }
+}
