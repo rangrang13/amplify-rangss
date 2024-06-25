@@ -24,12 +24,12 @@ export const listTweets = /* GraphQL */ `
         id
         text
         author
+        description
+        image
         createdAt
         updatedAt
-        __typename
       }
       nextToken
-      __typename
     }
   }
 `;

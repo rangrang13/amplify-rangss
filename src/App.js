@@ -1,24 +1,17 @@
-import logo from "./logo.svg";
-import "@aws-amplify/ui-react/styles.css";
-import {
-  withAuthenticator,
-  Button,
-  Heading,
-  Image,
-  View,
-  Card,
-} from "@aws-amplify/ui-react";
+import React from 'react';
+import './App.css';
+import Tweet from './Tweet';
 
-function App({ signOut }) {
+function App() {
   return (
-    <View className="App">
-      <Card>
-        <Image src={logo} className="App-logo" alt="logo" />
-        <Heading level={1}>We now have Auth!</Heading>
-      </Card>
-      <Button onClick={signOut}>Sign Out</Button>
-    </View>
+    <div className="App">
+      <header className="App-header">
+        <h1>Amplify Tweets</h1>
+        <Tweet />
+      </header>
+
+    </div>
   );
 }
 
-export default withAuthenticator(App);
+export default App;
